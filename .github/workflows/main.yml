@@ -20,3 +20,7 @@ jobs:
         run: echo "hello world!"
       - name: run multiline script
         run: echo "welcome to githubactions"
+      - name: run multiline script
+        run: |
+          echo "I am learning github actions"
+          echo "building the new azure infrastructure"
